@@ -4,6 +4,40 @@
 
 <br>
 
+O presente repositório visa apresentar o organograma do CTIC, além de aprender como montar diagramas usando o [**Mermaid**](https://mermaid.js.org/).
+
+```mermaid
+flowchart LR
+    0[CTIC] --> A[Área de Sistema de Informação]
+    A[Área de Sistema de Informação] --> |DSI|A1[Diretoria de Sistemas de Informação]
+    A[Área de Sistema de Informação] --> |DSAM|A2[Diretoria de Sistemas de Atividade-Meio]
+    A[Área de Sistema de Informação] --> A3[Diretoria de Sistemas de Atividade-Fim]
+    A[Área de Sistema de Informação] --> A4[Diretoria de Gestão de Informação e Ciência de Dados]
+    A[Área de Sistema de Informação] --> A5[Corpo de Apoio Técnico]
+
+    0[CTIC] --> B[Área de Infraestrutura e Operações]
+    B[Área de Infraestrutura e Operações] --> B1[Diretoria de Infraestrutura e Operações]
+    B[Área de Infraestrutura e Operações] --> B2[Diretoria de Redes e Telecom, integrada por Subárea de Apoio Técnico de Telefonia]
+    B[Área de Infraestrutura e Operações] --> B3[Diretoria de Gestão de Ambiente Computacional]
+    B[Área de Infraestrutura e Operações] --> B4[Corpo de Apoio Técnico de Segurança da Informação]
+    B[Área de Infraestrutura e Operações] --> B5[Corpo de Apoio Técnico de Banco de Dados]
+    B[Área de Infraestrutura e Operações] --> B6[Subárea de Apoio Técnico de Operações]
+
+    0[CTIC] --> C[Área de Planejamento e Gestão]
+    C[Área de Planejamento e Gestão] --> C1[Diretoria de Planejamento e Gestão]
+    C[Área de Planejamento e Gestão] --> C2[Corpo de Apoio Técnico]
+    C[Área de Planejamento e Gestão] --> C3[Subárea de Apoio Técnico-Administrativo]
+
+
+    0[CTIC] --> D[Área de Suporte Técnico]
+    D[Área de Suporte Técnico] --> D1[Diretoria de Suporte Técnico]
+    D[Área de Suporte Técnico] --> D2[Corpo de Apoio Técnico]
+    D[Área de Suporte Técnico] --> D3[Subárea de Apoio Administrativo de Atendimento ao Usuário]
+    D[Área de Suporte Técnico] --> D4[Subárea de Apoio Administrativo de Suporte a Sistemas]
+```
+
+<br>
+
 ```mermaid
 graph TD
 A{CTIC} --> C{Let me think}
@@ -13,45 +47,6 @@ C -->|Two| E[iPhone]
 C -->|Three| F[fa:fa-car Car]
 ```
 
-```mermaid
-graph TD
-A|CTIC| --> C{Let me think}
-C -->|One| D[Laptop]
-C -->|One| E[Laptop]
-C -->|Two| E[iPhone]
-C -->|Three| F[fa:fa-car Car]
-```
-
-```mermaid
-flowchart LR
-    A[CTIC] --> C[Área de Sistema de Informação]
-    C[Área de Sistema de Informação] --> C1[Diretoria de Sistemas de Informação]
-    C[Área de Sistema de Informação] --> C2[Diretoria de Sistemas de Atividade-Meio]
-    C[Área de Sistema de Informação] --> C3[Diretoria de Sistemas de Atividade-Fim]
-    C[Área de Sistema de Informação] --> C4[Diretoria de Gestão de Informação e Ciência de Dados]
-    C[Área de Sistema de Informação] --> C5[Corpo de Apoio Técnico]
-
-    A[CTIC] --> D[Área de Infraestrutura e Operações]
-    D[Área de Infraestrutura e Operações] --> D1[Diretoria de Infraestrutura e Operações]
-    D[Área de Infraestrutura e Operações] --> D2[Diretoria de Redes e Telecom, integrada por Subárea de Apoio Técnico de Telefonia]
-    D[Área de Infraestrutura e Operações] --> D3[Diretoria de Gestão de Ambiente Computacional]
-    D[Área de Infraestrutura e Operações] --> D4[Corpo de Apoio Técnico de Segurança da Informação]
-    D[Área de Infraestrutura e Operações] --> D5[Corpo de Apoio Técnico de Banco de Dados]
-    D[Área de Infraestrutura e Operações] --> D6[Subárea de Apoio Técnico de Operações]
-
-    A[CTIC] --> E[Área de Planejamento e Gestão]
-    E[Área de Planejamento e Gestão] --> E1[Diretoria de Planejamento e Gestão]
-    E[Área de Planejamento e Gestão] --> E2[Corpo de Apoio Técnico]
-    E[Área de Planejamento e Gestão] --> E3[Subárea de Apoio Técnico-Administrativo]
-
-
-    A[CTIC] --> F[Área de Suporte Técnico]
-    F[Área de Suporte Técnico] --> F1[Diretoria de Suporte Técnico]
-    F[Área de Suporte Técnico] --> F2[Corpo de Apoio Técnico]
-    F[Área de Suporte Técnico] --> F3[Subárea de Apoio Administrativo de Atendimento ao Usuário]
-    F[Área de Suporte Técnico] --> F4[Subárea de Apoio Administrativo de Suporte a Sistemas]
-```
-
 <br>
 
 ---
@@ -59,4 +54,5 @@ flowchart LR
 ### Referências
 
 - [**Mermaid**](https://mermaid.js.org/syntax/flowchart.html)
-- [stackoverflow: **Spaces in Mermaid**](https://stackoverflow.com/questions/54311261/spaces-in-mermaid)
+- [Stackoverflow: **Spaces in Mermaid**](https://stackoverflow.com/questions/54311261/spaces-in-mermaid)
+- [GitHub: **Include diagrams in your Markdown files with Mermaid**](https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/)
