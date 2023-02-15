@@ -3,25 +3,26 @@
 <br>
 
 
-
+```mermaid
 graph TD
 A{CTIC} --> C{Let me think}
 C -->|One| D[Laptop]
 C -->|One| E[Laptop]
 C -->|Two| E[iPhone]
 C -->|Three| F[fa:fa-car Car]
+```
 
+```mermaid
 graph TD
 A|CTIC| --> C{Let me think}
 C -->|One| D[Laptop]
 C -->|One| E[Laptop]
 C -->|Two| E[iPhone]
 C -->|Three| F[fa:fa-car Car]
+```
 
 
-
-
-
+```mermaid
 flowchart TD    
     A[CTIC] --> C[Área de Sistema de Informação]    
     C[Área de Sistema de Informação] --> C1[Diretoria de Sistemas de Informação]
@@ -49,7 +50,7 @@ flowchart TD
     F[Área de Suporte Técnico] --> F2[Corpo de Apoio Técnico]
     F[Área de Suporte Técnico] --> F3[Subárea de Apoio Administrativo de Atendimento ao Usuário]
     F[Área de Suporte Técnico] --> F4[Subárea de Apoio Administrativo de Suporte a Sistemas]
-
+```
 
 
 
