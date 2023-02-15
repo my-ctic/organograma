@@ -4,7 +4,7 @@
 
 <br>
 
-O presente repositório visa apresentar o organograma do CTIC, além de aprender como montar diagramas usando o [**Mermaid**](https://mermaid.js.org/).
+O presente repositório visa apresentar o organograma do CTIC, conforme [Resolução 1482/2022](./docs/2022.05.27%20-%20Resolu%C3%A7%C3%A3o%201482.pdf), além de aprender como montar diagramas usando o [**Mermaid**](https://mermaid.js.org/).
 
 ```mermaid
 flowchart LR
@@ -38,21 +38,10 @@ flowchart LR
 
 <br>
 
-```mermaid
-graph TD
-A{CTIC} --> C{Let me think}
-C -->|One| D[Laptop]
-C -->|One| E[Laptop]
-C -->|Two| E[iPhone]
-C -->|Three| F[fa:fa-car Car]
-```
-
-<br>
-
 ---
 
 ### Referências
 
-- [**Mermaid**](https://mermaid.js.org/syntax/flowchart.html)
+- [**Mermaid Documentation**](https://mermaid.js.org/intro/)
 - [Stackoverflow: **Spaces in Mermaid**](https://stackoverflow.com/questions/54311261/spaces-in-mermaid)
 - [GitHub: **Include diagrams in your Markdown files with Mermaid**](https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/)
