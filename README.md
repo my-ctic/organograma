@@ -11,8 +11,8 @@ flowchart LR
     0[CTIC] --> A[Área de Sistema de Informação]
     A[Área de Sistema de Informação] --> |DSI|A1[Diretoria de Sistemas de Informação]
     A[Área de Sistema de Informação] --> |DSAM|A2[Diretoria de Sistemas de Atividade-Meio]
-    A[Área de Sistema de Informação] --> A3[Diretoria de Sistemas de Atividade-Fim]
-    A[Área de Sistema de Informação] --> A4[Diretoria de Gestão de Informação e Ciência de Dados]
+    A[Área de Sistema de Informação] --> |DSAF|A3[Diretoria de Sistemas de Atividade-Fim]
+    A[Área de Sistema de Informação] --> |DGICD|A4[Diretoria de Gestão de Informação e Ciência de Dados]
     A[Área de Sistema de Informação] --> A5[Corpo de Apoio Técnico]
 
     0[CTIC] --> B[Área de Infraestrutura e Operações]
@@ -45,3 +45,4 @@ flowchart LR
 - [**Mermaid Documentation**](https://mermaid.js.org/intro/)
 - [Stackoverflow: **Spaces in Mermaid**](https://stackoverflow.com/questions/54311261/spaces-in-mermaid)
 - [GitHub: **Include diagrams in your Markdown files with Mermaid**](https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/)
+- [Sec. Fazenda: hierarquia](http://www.fazenda.sp.gov.br/ua/hierarquia3.asp?ua1=0093022)
