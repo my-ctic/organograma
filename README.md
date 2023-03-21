@@ -1,6 +1,6 @@
 # Organograma
 
-- [GitHub](https://github.com/mpsp-ctic/organograma)
+- [GitHub](https://github.com/my-ctic/organograma)
 
 <br>
 
@@ -46,3 +46,11 @@ flowchart LR
 - [Stackoverflow: **Spaces in Mermaid**](https://stackoverflow.com/questions/54311261/spaces-in-mermaid)
 - [GitHub: **Include diagrams in your Markdown files with Mermaid**](https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/)
 - [Sec. Fazenda: hierarquia](http://www.fazenda.sp.gov.br/ua/hierarquia3.asp?ua1=0093022)
+
+<br>
+
+---
+
+### Outros
+
+- [Setor voltado à ciência de dados entra em funcionamento no CTIC](https://mpsp.mp.br/w/setor-voltado-%C3%A0-ci%C3%AAncia-de-dados-entra-em-funcionamento-no-ctic)
