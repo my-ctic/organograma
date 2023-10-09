@@ -45,6 +45,7 @@ flowchart LR
 - [**Mermaid Documentation**](https://mermaid.js.org/intro/)
 - [Stackoverflow: **Spaces in Mermaid**](https://stackoverflow.com/questions/54311261/spaces-in-mermaid)
 - [GitHub: **Include diagrams in your Markdown files with Mermaid**](https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/)
+- [Examples Mermaid](https://workflow.jace.pro/)
 - [Sec. Fazenda: hierarquia](http://www.fazenda.sp.gov.br/ua/hierarquia3.asp?ua1=0093022)
 
 <br>
